@@ -746,6 +746,8 @@ spam_6: "#SPAM\nSpam berhasil dieksekusi di {}(`{}`) mengobrol dengan {} pesan d
 spam_7: "#DELAYSPAM\nDelay Spam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan penundaan {} detik dan dengan {} pesan \n`{}`"
 spam_8: "#DELAYSPAM\nDelay spam berhasil dieksekusi di {}(`{}`) mengobrol dengan penundaan {} detik dan dengan {} pesan \n`{}`"
 spam_9: "**Gunakan sintaks yang tepat untuk spam. Ketik** `{}help spam` **bila butuh bantuan.**"
+dspamfw_1: "#DELAYSPAM FORWARD\nBerhasil dieksekusi di chat {} sebanyak {} kali.\n Pesan yang diteruskan:\n {}"
+dspamfw_2: "#DELAYSPAM FORWARD\nBerhasil dieksekusi di grup {} (ID: {}) sebanyak {} kali.\n Pesan yang diteruskan:\n {}"
 sspam_1: "**Balas stiker apa pun untuk mengirim semua stiker dalam paket itu**"
 sspam_2: "`Mengambil detail Sticker Pack...`"
 sspam_3: "**Ini bukan stiker. Silahkan Reply ke stiker."
