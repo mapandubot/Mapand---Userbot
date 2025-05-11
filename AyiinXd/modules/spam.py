@@ -288,6 +288,16 @@ async def dlyspamfw(event):
             return
         await event.client.forward_messages(event.chat_id, message.id, channel)
         await asyncio.sleep(sleeptimem)
+    
+    if BOTLOG_CHATID:
+        if event.is_private:
+            await event.client.send_message(
+                BOTLOG_CHATID, get_string("dspamfw_1").format(event.chat_id, counter, message.text)
+            )
+        else:
+            await event.client.send_message(
+                BOTLOG_CHATID, get_string("dspamfw_2").format(get_display_name(await event.get_chat()), event.chat_id, counter, message.text)
+            )
 
 
 CMD_HELP.update(
