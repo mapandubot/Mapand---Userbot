@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10
 RUN git clone -b Mapand-Userbot https://github.com/mapandubot/Mapand-Userbot /home/Mapanduserbot/ \
     && chmod 777 /home/Mapanduserbot \
     && mkdir /home/Mapanduserbot/bin/
